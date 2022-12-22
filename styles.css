@@ -138,6 +138,9 @@ header .logo {
 .section-hero {
     background-color: var(--background-primary);
     padding: 200px 0;
+}
+
+.section-hero .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -209,6 +212,12 @@ header .logo {
     flex-direction: column;
 }
 
+.card-team {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
 .text {
     color: var(--text-secondary);
 }
@@ -229,9 +238,14 @@ margin-bottom: 10px;
     font-weight: 400;
 }
 
-.team-members img{
-    margin-bottom: 30px;
+.text-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
 }
+
 .footer {
     background-color: var(--background-primary);
     padding-top: 60px;
